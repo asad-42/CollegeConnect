@@ -1,0 +1,73 @@
+.admin-approval-page {
+  padding: 24px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.table-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  font-weight: 600;
+  background: #f8fafc;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.approve-btn {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error-box {
+  background: #ffe5e5;
+  color: #b00020;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.empty-text {
+  color: #666;
+  margin-top: 20px;
+}
+
+.access-denied {
+  padding: 24px;
+  color: #b00020;
+  font-weight: 600;
+}

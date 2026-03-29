@@ -1,0 +1,19 @@
+.auth-signup {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.signup-link {
+  background: none;
+  border: none;
+  color: #112551;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

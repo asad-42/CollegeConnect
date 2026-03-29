@@ -1,0 +1,110 @@
+.create-event-page {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.event-card {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 28px 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.event-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.event-subtitle {
+  margin-top: 6px;
+  color: #666;
+  font-size: 14px;
+}
+
+.form-error {
+  margin-top: 16px;
+  padding: 10px 14px;
+  background: #ffe5e5;
+  color: #b00020;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.event-form {
+  margin-top: 24px;
+}
+
+.form-section {
+  margin-bottom: 28px;
+}
+
+.form-section h4 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.btn-primary {
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(135deg, #4f46e5, #2563eb);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
